@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: xiaokang-chen
+title: kang's blog
 subtitle: ''
-description: ''
+description: 'front-end blog'
 keywords:
 author: XiaoKang Chen
 language: zh-CN
@@ -61,6 +61,14 @@ index_generator:
   per_page: 10
   order_by: -date
 
+archive_generator: #档案索引
+  per_page: 20
+  yearly: true
+  monthly: true
+
+tag_generator: #标签索引
+  per_page: 10
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -101,3 +109,10 @@ deploy:
   type: git
   repo: https://github.com/xiaokang-chen/xiaokang-chen.github.io
   branch: master
+
+symbols_count_time:
+  symbols: true                # 文章字数统计
+  time: true                   # 文章阅读时长
+  total_symbols: true          # 站点总字数统计
+  total_time: true             # 站点总阅读时长
+  exclude_codeblock: false     # 排除代码字数统计
