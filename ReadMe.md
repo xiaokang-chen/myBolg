@@ -11,3 +11,12 @@
 
 4. 生成并部署
    hexo d -g
+
+## 学习资料总结
+
+1. vue 源码分析
+   https://book.penblog.cn/
+2. labuladong 算法
+   https://labuladong.gitbook.io/algo/
+3. js 兼容性查询
+   https://kangax.github.io/compat-table/es6/
